@@ -10,7 +10,11 @@ export const routes = [
     path: '/users',
     text: 'Users',
     slag: 'users',
-    config: {},
+    config: {
+      classNames: {
+      //  classes that will be added on the parent of Link element
+      }
+    },
     component: Users,
     routes: [
       {

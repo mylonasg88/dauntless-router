@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Posts = (props) => (
+interface PostsProps {}
+
+const Posts: React.FC<PostsProps> = () => (
   <h3>Posts</h3>
 );
 
